@@ -1,0 +1,25 @@
+{
+  "name": "html_to_pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "html-pdf": "^2.1.0",
+    "moment": "^2.18.1",
+    "phantomjs": "^2.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlx362211854/html_to_pdf.git"
+  },
+  "author": "zlx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zlx362211854/html_to_pdf/issues"
+  },
+  "homepage": "https://github.com/zlx362211854/html_to_pdf#readme"
+}
