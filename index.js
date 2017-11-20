@@ -14,11 +14,11 @@ var name = '张三';
 // 匹配规则
 var reg = [
     {
-        relus: /__name__/g,
+        rules: /__name__/g,
         match: name
     },
     {
-        relus: /__date__/g,
+        rules: /__date__/g,
         match: moment().format('YYYY年MM月DD日')
     }
 ];

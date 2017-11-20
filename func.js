@@ -9,7 +9,7 @@ exports.createPDFProtocolFile = function (template, options, reg, filename) {
     // 将所有匹配规则在html模板中匹配一遍
     if (reg && Array.isArray(reg)) {
         reg.forEach(item => {
-            template = template.replace(item.relus, item.match);
+            template = template.replace(item.rules, item.match);
     });
     }
     pdf.create(template, options).toFile(filename, function(err, res) {
